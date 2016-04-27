@@ -16,6 +16,7 @@ public class HomeController {
 
 	@RequestMapping(value="/")
 	public ModelAndView home(){
+		System.out.println("yo");
 		return new ModelAndView("home");
 		
 	}
